@@ -1,6 +1,8 @@
 [submodule "sniffer1"]
 	path = sniffer1
 	url = https://github.com/AdamPinczesi/lora-sniffer1.git
+	branch = main
 [submodule "sniffer2"]
 	path = sniffer2
 	url = https://github.com/AdamPinczesi/lora-sniffer2.git
+	branch = main
