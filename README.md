@@ -2,6 +2,8 @@
 
 This repository documents the custom modifications required to build a complete **LoRaWAN Dual-Sniffer system** using the SX1308 concentrator.
 
+**Specific documentations can be found for both sniffers in their respective repositories in the readme.md file.**
+
 Because standard LoRaWAN gateways transmit Downlinks using **Inverted I/Q Polarity** (down-chirps instead of up-chirps), a standard sniffer cannot hear them. To capture full bidirectional traffic reliably, this setup uses **two separate sniffers**:
 
 1. **Sniffer 1 (Uplink):** Standard configuration, modified to filter out "ghost" downlinks caused by RF cross-talk  
